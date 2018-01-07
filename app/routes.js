@@ -36,10 +36,18 @@ module.exports = function(app, passport) {
     //================================
     // Profile section
     //================================
-    app.get('/profile', function(req, res) {
+    app.get('/profile', isLoggedIn, function(req, res) {
         res.render('profile.ejs', {
             user: req.user // get user from session and pass to template
         });
+    });
+
+    //================================
+    // Logout
+    //================================
+    app.get('/logout', function(req, res) {
+        req.logout();
+        res.redirect('/');
     });
 };
 
