@@ -1,0 +1,12 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+app	/home/dpitzel/Projects/Node/AnyTable/server.js	/^var app = express();$/;"	v	language:JavaScript
+bodyParser	/home/dpitzel/Projects/Node/AnyTable/server.js	/^var bodyParser = require('body-parser');$/;"	v	language:JavaScript
+configDB	/home/dpitzel/Projects/Node/AnyTable/server.js	/^var configDB = require('.\/config\/database.js');$/;"	v	language:JavaScript
+cookieParser	/home/dpitzel/Projects/Node/AnyTable/server.js	/^var cookieParser = require('cookie-parser');$/;"	v	language:JavaScript
+express	/home/dpitzel/Projects/Node/AnyTable/server.js	/^var express = require('express');$/;"	v	language:JavaScript
+flash	/home/dpitzel/Projects/Node/AnyTable/server.js	/^var flash = require('connect-flash');$/;"	v	language:JavaScript
+morgan	/home/dpitzel/Projects/Node/AnyTable/server.js	/^var morgan = require('morgan');$/;"	v	language:JavaScript
+passport	/home/dpitzel/Projects/Node/AnyTable/server.js	/^var passport = require('passport');$/;"	v	language:JavaScript
+pg	/home/dpitzel/Projects/Node/AnyTable/server.js	/^var pg = require('pg');$/;"	v	language:JavaScript
+port	/home/dpitzel/Projects/Node/AnyTable/server.js	/^var port = process.env.PORT || 8080;$/;"	v	language:JavaScript
+session	/home/dpitzel/Projects/Node/AnyTable/server.js	/^var session = require('express-session');$/;"	v	language:JavaScript
