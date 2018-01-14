@@ -1,3 +1,0 @@
-!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
-exports.down	/home/dpitzel/Projects/Node/AnyTable/migrations/20180107123213_users.js	/^};$/;"	f	language:JavaScript
-exports.up	/home/dpitzel/Projects/Node/AnyTable/migrations/20180107123213_users.js	/^$/;"	f	language:JavaScript
